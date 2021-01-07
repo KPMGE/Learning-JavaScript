@@ -2,12 +2,12 @@
 
 let weekAssignments = {
   sunday: "work out at 6AM",
-  monday: "run",
-  tuesday: "wash the dishes", 
+  monday: "running",
+  tuesday: "washing the dishes", 
   wednesday: "crying",
-  thursday: "watch a movie",
+  thursday: "watching a movie",
   friday: "go to my brother's party",
-  saturday: "crying because anything wants me"
+  saturday: "crying because nobody wants me"
 };
 
 console.log(weekAssignments);
