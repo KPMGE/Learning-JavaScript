@@ -1,3 +1,3 @@
-# Learning - JavaScript
+## Learning - JavaScript
 
-### my personal projects and tests in JavaScript programming language
+#### my personal projects and tests in JavaScript programming language
