@@ -4,8 +4,7 @@
 const getMin = (value1, value2) => (value1 < value2) ? value1 : value2;
 
 // explicit declaration
-function getMin(value1, value2) 
-{
+function getMin(value1, value2) {
   return (value1 < value2) ? value1 : value2;
 }
 
