@@ -9,9 +9,6 @@ function Point(x, y) {
 
 // adding methods to point object by prototype
 Point.prototype = {
-  eat() {
-    console.log("iḿ eating");
-  },
   getPoint() {
     return {x: this.x, y: this.y};
   },
@@ -40,11 +37,6 @@ function Circle(x, y, radius) {
 // using inheritance
 Circle.prototype = Object.create(Point.prototype);
 
-// creating two points and one circle
-point1 = new Point(1, 0);
-point2 = new Point(2, 8);
-circle = new Circle(2, 4, 3);
-
 // function that returns distance between points
 function getDistancePoints(point1, point2) {
   let dx = point2.x - point1.x;
@@ -56,6 +48,11 @@ function getDistancePoints(point1, point2) {
 function getAreaCircle(circle) {
   return Math.PI * Math.pow(circle.radius, 2);
 }
+
+// creating two points and one circle
+point1 = new Point(1, 0);
+point2 = new Point(2, 8);
+circle = new Circle(2, 4, 3);
 
 // displaying results
 console.log("point1 = ", point1.getPoint(), "\npoint2 = ", point2.getPoint());
