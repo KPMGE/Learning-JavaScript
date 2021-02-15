@@ -37,8 +37,7 @@ class Circle extends Point {
 function getDistancePoints(p1, p2) {
   let dx = p2.x - p1.x;
   let dy = p2.y - p1.y;
-  let distance = Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2));
-  return distance;
+  return Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2));
 }
 
 // function to get area of a given circle
